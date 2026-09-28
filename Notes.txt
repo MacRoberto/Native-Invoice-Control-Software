@@ -9,13 +9,20 @@ Software architecture
           Activities: 
             Kanban board: Backlog, Doing, Review and Done 
       _Form (input)
-        users id
-        date
-        budget 
-        report name
-          status: backlog, to do, review, done.
-        supplier name
-        property
+         users id (Select)
+         date
+         budget(month)
+         report name
+         upload button
+         status: backlog, to do, review, done.
+         supplier:
+            Supplier Details: Name, address, and contact info of the seller.
+            Customer Information: Name and contact details of the buying business.
+            Invoice Number: A unique tracking number for the transaction.
+            Dates: The issue date and the payment due date.
+            Line Items: Description, quantity, unit price, and total for each product or service.
+            Financial Totals: Subtotal, applicable taxes (like VAT or sales tax), and final amount due.
+         property (Select: Marriott and JW Marriot) 
       
     _Database(Storage): JSON file
         Users.JSON
