@@ -1,0 +1,32 @@
+Software architecture
+
+   Based on mvc model and CRUD aplication 
+    _Login
+
+    Flow Works
+      _Dashboard(Output)
+        Fist advance:28/09/2026
+          Activities: 
+            Kanban board: Backlog, Doing, Review and Done 
+      _Form (input)
+        users id
+        date
+        budget 
+        report name
+          status: backlog, to do, review, done.
+        supplier name
+        property
+      
+    _Database(Storage): JSON file
+        Users.JSON
+        
+        Year-Folder.JSON
+          Month-FolderJSON
+            Day-Folder.JSON
+
+
+  Responsive Layout
+    based on local bootstrap file "bootstrap.min.css" that it was renamed "style.css"
+
+
+    
